@@ -17,7 +17,7 @@ function Kisi({data, friends}) {
   )
 }
 
-export default Kisi
+export default Kisi;
 //DİĞER YÖNTEM
 //function Kisi({data}) {
  

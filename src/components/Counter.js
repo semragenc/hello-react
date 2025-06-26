@@ -7,7 +7,7 @@ function Counter() {
   return (
     <div>
         <h1>{count}</h1>
-        <button onClick={() => setCount(count + 1)}>Arttır</button>
+        <button onClick={() => setCount(count + amount)}>Arttır</button>
         <hr/>
         <div>Arttırma: +{amount}</div>
         <button onClick={() => setAmount(1)}>+1</button>
@@ -17,4 +17,4 @@ function Counter() {
   );
 }
 
-export default Counter
+export default Counter;

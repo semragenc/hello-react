@@ -3,6 +3,8 @@ import Login from './components/Login';
 import User from './components/User';
 import Kisi from './components/Kisi';
 import Counter from './components/Counter';
+import Farm from './components/Farm';
+import Colors from './components/Colors';
 const kisi = {
   ad: "Mustafa",
   soyad: "Kemal",
@@ -51,6 +53,8 @@ function App() {
     <Kisi data={kisi} friends={['Asya', 'Toprak', 'Almila', 'Esila']}/>
     <hr/>
     <Counter/>
+    <Farm/>
+    <Colors/>
   </div>
   //string dışındaki tüm verileri fonk, obje, sayı, array 
   // vebenzeri {} ile göndermemiz gerekiyor.
