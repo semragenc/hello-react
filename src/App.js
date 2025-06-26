@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Login from './components/Login';
 import User from './components/User';
 import Kisi from './components/Kisi';
+import Counter from './components/Counter';
 const kisi = {
   ad: "Mustafa",
   soyad: "Kemal",
@@ -48,6 +49,8 @@ function App() {
     <br></br>
     <br></br>
     <Kisi data={kisi} friends={['Asya', 'Toprak', 'Almila', 'Esila']}/>
+    <hr/>
+    <Counter/>
   </div>
   //string dışındaki tüm verileri fonk, obje, sayı, array 
   // vebenzeri {} ile göndermemiz gerekiyor.

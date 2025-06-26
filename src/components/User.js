@@ -6,7 +6,6 @@ function User(props) {
         <div>İsim: {props.isim}</div>
         <div>Yaş: {props.yas}</div>
         <div>Şehir: {props.sehir}</div>
-        <hr/>
     </div>
 }
 
