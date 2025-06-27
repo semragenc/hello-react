@@ -5,6 +5,7 @@ import Kisi from './components/Kisi';
 import Counter from './components/Counter';
 import Farm from './components/Farm';
 import Colors from './components/Colors';
+import Form from './components/Form';
 const kisi = {
   ad: "Mustafa",
   soyad: "Kemal",
@@ -55,6 +56,11 @@ function App() {
     <Counter/>
     <Farm/>
     <Colors/>
+     <br></br>
+    <hr/>
+    <Form/>
+     <br></br>
+      <br></br>
   </div>
   //string dışındaki tüm verileri fonk, obje, sayı, array 
   // vebenzeri {} ile göndermemiz gerekiyor.
